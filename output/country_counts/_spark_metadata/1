@@ -1,0 +1,3 @@
+v1
+{"path":"file:///C:/Users/Fatma%20CHAHED/Advanced-Spark-Structured-Streaming-master/output/country_counts/part-00000-5d95e386-84fe-4e61-9821-7c06292c503d-c000.snappy.parquet","size":1567,"isDir":false,"modificationTime":1771779439643,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///C:/Users/Fatma%20CHAHED/Advanced-Spark-Structured-Streaming-master/output/country_counts/part-00001-8c8eab31-2853-4b52-a014-f67be7a5eebc-c000.snappy.parquet","size":1558,"isDir":false,"modificationTime":1771779439640,"blockReplication":1,"blockSize":33554432,"action":"add"}

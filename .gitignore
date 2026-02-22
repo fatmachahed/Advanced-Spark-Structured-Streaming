@@ -1,0 +1,12 @@
+# Spark outputs
+checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Logs
+*.log
