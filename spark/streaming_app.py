@@ -55,12 +55,12 @@ df_valid = df_parsed.filter(
     col("data.device_id").isNotNull() &
     col("data.event_time").isNotNull() &
     col("data.temperature").isNotNull() &
-    (col("data.temperature") != -999) &       # sentinel value
-    (col("data.temperature") > -50) &         # physically impossible
-    (col("data.temperature") < 100) &         # physically impossible
+    (col("data.temperature") != -999) &       
+    (col("data.temperature") > -50) &       
+    (col("data.temperature") < 100) &        
     col("data.country").isNotNull() &
-    (col("data.country") != "") &             # empty string
-    (col("data.country").rlike("^[a-zA-Z ]+$"))  # country must be letters only
+    (col("data.country") != "") &          
+    (col("data.country").rlike("^[a-zA-Z ]+$"))  
 ).select(
     col("data.device_id"),
     to_timestamp(col("data.event_time")).alias("event_time"),
